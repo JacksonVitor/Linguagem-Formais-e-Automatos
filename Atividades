@@ -1,0 +1,44 @@
+📌 Processo de Compilação em Java
+
+1. Diferença entre Java e C++ na compilação
+C++: compila diretamente para código de máquina específico de um sistema operacional.
+Java: compila para bytecode, um código intermediário que roda em qualquer plataforma com a JVM (portabilidade).
+
+2. Fases de análise do compilador javac
+Análise Léxica: transforma o código fonte em tokens (palavras-chave, identificadores, operadores).
+Análise Sintática: verifica a estrutura gramatical do código (se segue a sintaxe da linguagem).
+Análise Semântica: confere se o código faz sentido (tipos corretos, variáveis declaradas, coerência lógica).
+
+3. Bytecode e sua função
+É o código intermediário gerado pelo javac (arquivos .class).
+Função: permitir que o mesmo programa rode em qualquer sistema com JVM, sem precisar recompilar.
+
+4. Papel da JVM e motivo do .class não ser executado diretamente
+A JVM interpreta/compila o bytecode para instruções da máquina local.
+O .class não é executado pelo sistema operacional porque não contém instruções de máquina nativas, apenas o bytecode.
+
+5. Compilador JIT
+(Just-In-Time Compiler): converte trechos do bytecode em código de máquina durante a execução.
+Benefício: melhora desempenho, pois partes frequentemente usadas não precisam ser interpretadas toda vez.
+
+📌 Linguagens Formais em Java
+
+6. Aplicação mais comum
+Definição de gramáticas para compiladores e interpretadores.
+Utilizadas para definir as regras da linguagem Java e processar código-fonte.
+
+7. Uso nas fases de compilação
+Análise Léxica: usa expressões regulares para identificar tokens.
+Análise Sintática: usa gramáticas livres de contexto para validar a estrutura do programa.
+
+8. Máquina de Estado Finito (FSM) em Java
+É um modelo matemático de computação baseado em estados e transições.
+Em Java pode ser usada para: reconhecimento de padrões, análise léxica, controle de fluxo em jogos ou sistemas reativos.
+
+9. Relação com schemas de validação (XML/JSON)
+As linguagens formais definem regras de estrutura e conteúdo (gramática).
+Schemas como XSD (XML) ou JSON Schema funcionam como gramáticas formais para validar se os documentos seguem a estrutura definida.
+
+10. Utilidade do ANTLR
+Ferramenta que gera analisadores léxicos e sintáticos automaticamente a partir de uma gramática formal.
+No Java, é muito usada para criar compiladores, interpretadores e validadores de linguagens personalizadas.
