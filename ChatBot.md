@@ -55,49 +55,60 @@ stateDiagram
 ---
 
 ## 4) Exemplo de Diálogo
+Chatbot iniciado! Diga 'Oi' para começar.
+Você: Boa Noite
 
-Bot: Olá! Sou o assistente da Super Mario Drinks. Para iniciar seu pedido, digite "quero pedir".
+Bot: Olá! Bem-vindo à Esfirras J&A! Você quer pedir esfirras ou bebidas?
+Você: Esfirras
 
-Cliente: quero pedir
+Bot: Temos sabores: carne, queijo, frango, calabresa, chocolate. Qual sabor deseja primeiro?
+Você: Carne 
+Bot: Quantas esfirras de carne?
+Você: 5
 
-Bot: Ótimo! Qual bebida você deseja?
+Bot: Deseja adicionar outro sabor? (Sim/Não)
+Você: sim
 
-Exemplos: Heineken, Budweiser, Skol, Brahma, Coca, Fanta, Pepsi, Guaraná, Monster, Whisky, Água.
+Bot: Qual outro sabor deseja adicionar?
+Você: Frango
+Bot: Quantas esfirras de frango?
+Você: 2
 
-Informe a bebida desejada.
+Bot: Deseja adicionar outro sabor? (Sim/Não)
+Você: Sim
 
-Cliente: heineken
+Bot: Qual outro sabor deseja adicionar?
+Você: Queijo
+Bot: Quantas esfirras de queijo?
+Você: 1
 
-Bot: Beleza! Heineken escolhida.
+Bot: Deseja adicionar outro sabor? (Sim/Não)
+Você: Não
 
-Agora, informe a quantidade e o tipo de embalagem (ex: lata, garrafa, long neck, caixa).
+Bot: Deseja adicionar bebida ao pedido? (Sim/Não)
+Você: Sim
+Bot: Temos bebidas: coca-cola, guarana, tampico, suco, agua, agua-com-gás. Qual deseja?
+Você: Coca-cola
+Bot: Quantas unidades de coca-cola?
+Você: 2
 
-Cliente: 3 caixas
+Bot: Qual será a forma de pagamento? (Pix, Cartão ou Dinheiro)
+Você: Pix
 
-Bot: Perfeito!
+Bot: 
+Resumo do Pedido:
+- 5 esfirra(s) de carne
+- 2 esfirra(s) de frango
+- 1 esfirra(s) de queijo
+- 2 unidade(s) de coca-cola
+Forma de pagamento: Pix
+Confirmar pedido? (Sim/Não)
+Você: Sim
 
-Agora me passe o endereço e um telefone para contato.
+Bot: Pedido confirmado! Muito obrigado. Para encerrar, digite: Sim
+Você: Sim
 
-Cliente: Unialfa Perimetral 40028922
-
-Bot: Vamos confirmar seu pedido:
-
-Produto: Heineken
-Quantidade: 3 caixas
-Entrega: Unialfa Perimetral 40028922
-Digite “confirmar”, “alterar” ou “cancelar”.
-Cliente: confirmar
-
-Bot: Como deseja pagar? Digite “dinheiro” ou “cartão”.
-Cliente: cartão
-Bot: Pedido confirmado! 🎉
-Resumo final:
-* Produto: Heineken
-* Quantidade: 3 caixas
-* Endereço: Unialfa Perimetral 40028922
-* Pagamento: cartão
-Bot: Obrigado! A Super Mario Drinks agradece seu pedido.
-Sua entrega chegará em aproximadamente 20 minutos. 
+Bot: Nos da J&A agradecemos pela preferência! Volte sempre!
 
 ---
 
