@@ -1,5 +1,4 @@
 # Chatbot Esfirras AJ com Autômato Finito Determinístico (DFA)
-
 ## 1) Resumo do Tema
 **Título:** Chatbot de Pedidos para Esfirras AJ com Autômato Finito Determinístico (DFA)  
 **Objetivo:** Apresentar um fluxo de atendimento automatizado utilizando um DFA que conduz o cliente desde a saudação até a finalização do pedido.
