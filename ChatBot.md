@@ -39,9 +39,9 @@ stateDiagram
 
 ## 3) Tabela de Estados e Transições
 
-|Estado |    Nome	     |    Descrição                     |
-----------------------------------------------------------------|
-|S0     |Início	             |Aguarda saudação                  | 
+| Estado | Ação do Usuário | Próximo Estado |
+|--------|-----------------|----------------|
+|S0     |Início	             |Aguarda saudação                  
 |S1     |Menu	             |Mostra opções (esfirra ou bebida) |
 |S2     |Escolha esfirra     |Cliente escolhe sabor             |
 |S3     |Quantidade esfirra  |Cliente informa quantidade        |
