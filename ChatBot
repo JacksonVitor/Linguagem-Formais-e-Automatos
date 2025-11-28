@@ -1,1 +1,18 @@
-.
+```mermaid
+stateDiagram
+  direction TB
+  [*] --> SAUDACAO
+  SAUDACAO --> ESCOLHER_SABOR:"quero pedir"
+  ESCOLHER_SABOR --> ESCOLHER_TAMANHO:bebida selecionada
+  ESCOLHER_TAMANHO --> ESCOLHER_BEBIDA:quantidade selecionada
+  ESCOLHER_BEBIDA --> INFORMAR_ENDERECO:embalagem selecionada
+  INFORMAR_ENDERECO --> CONFIRMAR:endereço recebido
+  CONFIRMAR --> PAGAMENTO:confirmar pedido
+  PAGAMENTO --> FINALIZADO:pagamento confirmado
+  CONFIRMAR --> ESCOLHER_SABOR:"alterar"
+  CONFIRMAR --> [*]:"cancelar"
+  FINALIZADO --> [*]
+  ESCOLHER_SABOR:ESCOLHER_BEBIDA
+  ESCOLHER_TAMANHO:ESCOLHER_QUANTIDADE
+  ESCOLHER_BEBIDA:ESCOLHER_EMBALAGEM
+```
