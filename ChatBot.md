@@ -41,16 +41,16 @@ stateDiagram
 
 | Estado | Ação do Usuário | Próximo Estado |
 |--------|-----------------|----------------|
-|S0     |Início	             |Aguarda saudação                  
-|S1     |Menu	             |Mostra opções (esfirra ou bebida) |
-|S2     |Escolha esfirra     |Cliente escolhe sabor             |
-|S3     |Quantidade esfirra  |Cliente informa quantidade        |
-|S4     |Pergunta bebida     |Oferece bebidas                   |
-|S5     |Escolha bebida	     |Cliente escolhe bebida            |
-|S6     |Quantidade bebida   |Cliente informa quantidade        |
-|S7     |Forma de pagamento  |Pergunta forma de pagamento       |
-|S8     |Confirmação final   |Confirma tudo                     |
-|S9     |Finalização	     |Encerra                           |
+| S0     | Início	             | Aguarda saudação                  
+| S1     | Menu	             | Mostra opções (esfirra ou bebida) |
+| S2     | Escolha esfirra     | Cliente escolhe sabor             |
+| S3     | Quantidade esfirra  | Cliente informa quantidade        |
+| S4     | Pergunta bebida     | Oferece bebidas                   |
+| S5     | Escolha bebida	     | Cliente escolhe bebida            |
+| S6     | Quantidade bebida   | Cliente informa quantidade        |
+| S7     | Forma de pagamento  | Pergunta forma de pagamento       |
+| S8     | Confirmação final   | Confirma tudo                     |
+| S9     | Finalização	     | Encerra                           |
 
 ---
 
