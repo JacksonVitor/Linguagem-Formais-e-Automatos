@@ -56,43 +56,63 @@ stateDiagram
 
 ## 4) Exemplo de Diálogo
 Chatbot iniciado! Diga 'Oi' para começar.
+
 Você: Boa Noite
 
 Bot: Olá! Bem-vindo à Esfirras J&A! Você quer pedir esfirras ou bebidas?
+
 Você: Esfirras
 
 Bot: Temos sabores: carne, queijo, frango, calabresa, chocolate. Qual sabor deseja primeiro?
+
 Você: Carne 
+
 Bot: Quantas esfirras de carne?
+
 Você: 5
 
 Bot: Deseja adicionar outro sabor? (Sim/Não)
+
 Você: sim
 
 Bot: Qual outro sabor deseja adicionar?
+
 Você: Frango
+
 Bot: Quantas esfirras de frango?
+
 Você: 2
 
 Bot: Deseja adicionar outro sabor? (Sim/Não)
+
 Você: Sim
 
 Bot: Qual outro sabor deseja adicionar?
+
 Você: Queijo
+
 Bot: Quantas esfirras de queijo?
+
 Você: 1
 
 Bot: Deseja adicionar outro sabor? (Sim/Não)
+
 Você: Não
 
 Bot: Deseja adicionar bebida ao pedido? (Sim/Não)
+
 Você: Sim
+
 Bot: Temos bebidas: coca-cola, guarana, tampico, suco, agua, agua-com-gás. Qual deseja?
+
 Você: Coca-cola
+
 Bot: Quantas unidades de coca-cola?
+
 Você: 2
 
 Bot: Qual será a forma de pagamento? (Pix, Cartão ou Dinheiro)
+
 Você: Pix
 
 Bot: 
@@ -103,9 +123,11 @@ Resumo do Pedido:
 - 2 unidade(s) de coca-cola
 Forma de pagamento: Pix
 Confirmar pedido? (Sim/Não)
+
 Você: Sim
 
 Bot: Pedido confirmado! Muito obrigado. Para encerrar, digite: Sim
+
 Você: Sim
 
 Bot: Nos da J&A agradecemos pela preferência! Volte sempre!
