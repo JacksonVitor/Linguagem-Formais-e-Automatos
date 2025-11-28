@@ -1,4 +1,4 @@
-# Chatbot SuperMario Drinks com Autômato Finito Determinístico (DFA)
+# Chatbot Esfirras AJ com Autômato Finito Determinístico (DFA)
 
 ## 1) Resumo do Tema
 **Título:** Chatbot de Pedidos para Esfirras AJ com Autômato Finito Determinístico (DFA)  
