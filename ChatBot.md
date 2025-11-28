@@ -9,8 +9,7 @@ Cada estado define uma ação específica, garantindo uma interação estruturad
 ---
 
 ## 2) Diagrama de Estados (Mermaid)
-```
-mermaid
+```mermaid
 stateDiagram-v2
 
     [*] --> S0
@@ -35,7 +34,6 @@ stateDiagram-v2
     S8 --> S1: cancelar
 
     S9 --> [*]: encerrar
-
 ---
 
 ## 3) Tabela de Estados e Transições
