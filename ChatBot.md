@@ -11,9 +11,6 @@ Cada estado define uma ação específica, garantindo uma interação estruturad
 ## 2) Diagrama de Estados (Mermaid)
 ```mermaid
 stateDiagram
-  direction TB
-stateDiagram
-    direction TB
 
     [*] --> S0
     S0 --> S1: saudação
