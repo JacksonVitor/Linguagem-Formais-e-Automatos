@@ -1,6 +1,7 @@
 stateDiagram
   direction TB
   [*] --> S0
+  
   S0 --> S1: saudação
 
   S1 --> S2: pedir esfirras
