@@ -1,3 +1,5 @@
+```mermaid
+stateDiagram-v2
 stateDiagram
     direction TB
 
