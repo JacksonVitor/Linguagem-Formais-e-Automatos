@@ -9,7 +9,8 @@ Cada estado define uma ação específica, garantindo uma interação estruturad
 ---
 
 ## 2) Diagrama de Estados (Mermaid)
-```mermaid
+```
+mermaid
 stateDiagram-v2
 
     [*] --> S0
